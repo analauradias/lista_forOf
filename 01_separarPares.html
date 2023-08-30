@@ -14,10 +14,10 @@
     for(let numero of listaDeNumeros){
         if(numero % 2 == 0){
             numPar.push(numero);
-            numPar.sort((a,b) => a-b);
+            numPar.sort((a,b) => b-a);
         }
     }
 
     //SAÍDA
-    document.write(numPar)
+    document.write(numPar.join(", "))
 </script>
